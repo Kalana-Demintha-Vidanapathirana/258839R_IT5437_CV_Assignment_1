@@ -1,14 +1,16 @@
 [project]
 name = "cv-assignment-1"
 version = "0.1.0"
-description = "MSc CV Assignment 1"
+description = "MSc Computer Vision Assignment 1"
 requires-python = ">=3.10"
 dependencies = [
-    "opencv-python",
     "numpy",
+    "opencv-python",
     "matplotlib",
+    "scipy",
     "scikit-image",
     "jupyter",
+    "pillow",
     "pandas",
 ]
 
