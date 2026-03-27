@@ -1,0 +1,21 @@
+[project]
+name = "cv-assignment-1"
+version = "0.1.0"
+description = "MSc CV Assignment 1"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "matplotlib",
+    "scikit-image",
+    "jupyter",
+    "pandas",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "pylint",
+]
