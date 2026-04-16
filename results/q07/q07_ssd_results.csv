@@ -1,0 +1,6 @@
+original,small,scale_factor_x,scale_factor_y,ssd_nearest,ssd_bilinear
+im01.png,im01small.png,4.0,4.0,255.29568,200.24515
+im02.png,im02small.png,4.0,4.0,64.62938,48.960667
+im03.png,im03small.png,4.0,3.9972602739726026,147.76546,113.566124
+taylor.jpg,taylor_small.jpg,5.0,5.0,320.08823,285.21362
+taylor.jpg,taylor_very_small.jpg,20.0,20.0,737.8096,654.62634

@@ -16,8 +16,27 @@ This repository contains the code and documentation for Assignment 1.
 
 ## Installation
 
-[Add installation instructions here]
+# Create virtual environment
+uv venv .venv
+
+# Activate it
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+# Install dependencies (once you create requirements.txt or pyproject.toml)
+uv pip install -r requirements.txt
+# OR
+uv pip install opencv-python numpy matplotlib scikit-image jupyter pandas
+
+# Sync dependencies from pyproject.toml
+uv sync
 
 ## Usage
 
-[Add usage instructions here]
+### Navigate to /src for python files
+cd src
+
+### Navigate to /notebooks for jupyter notebook files
+cd notebooks
